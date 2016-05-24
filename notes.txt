@@ -1,0 +1,24 @@
+#Overview of Git
+
+Git consists of three parts
+
+* the directory where your files are 
+* the staging area where you construct the next version
+* the object store where the versions are stored
+
+# setting up Git
+
+## Settings
+
+```
+git config --global user.name "name"
+git config --global user.email "email"
+git config --global core.editor "gedit -s -w"
+```
+
+The `--global` option sets the settings for the whole computer, instead of just the directory
+
+## Initialization
+
+The command `git init` creates the git staging and object store in the current directory.
+
