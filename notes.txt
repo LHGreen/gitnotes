@@ -37,3 +37,22 @@ git add notes.txt
 git commit
 ```
 
+
+# History
+
+You can see the history of your changes with: 
+```
+git log
+```
+You can specify an version by its number. The easiest way to get the numbers is to use
+
+```
+git log --oneline
+```
+
+## Specifying previous versions
+
+You can specify a previous version with
+`<commmit>~<n>` where `<commit>` is version
+number of name associated with the version.
+The `~<n>` says to go back n versions.
