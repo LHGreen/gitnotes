@@ -13,7 +13,7 @@ Git consists of three parts
 ```
 git config --global user.name "name"
 git config --global user.email "email"
-git config --global colour.ui auto
+git config --global color.ui auto
 git config --global core.editor "gedit"
 ```
 Online, using "gedit -w -s" is recommended, since this is supposed to block user input until text into gedit is entered, then return to the editor or something, but it doesn't seem to work. Meh. 
@@ -23,4 +23,17 @@ The `--global` option sets the settings for the whole computer, instead of just 
 ## Initialization
 
 The command `git init` creates the git staging and object store in the current directory.
+
+#Creating the next version
+
+1. Make the desired changes to the files
+2. Stage the changes to be at the next version 
+3. Commit the staged changes as the next version
+
+ex. 
+```
+gedit notes.txt
+git add notes.txt
+git commit
+```
 
