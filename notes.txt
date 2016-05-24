@@ -13,6 +13,7 @@ Git consists of three parts
 ```
 git config --global user.name "name"
 git config --global user.email "email"
+git config --global colour.ui auto
 git config --global core.editor "gedit"
 ```
 Online, using "gedit -w -s" is recommended, since this is supposed to block user input until text into gedit is entered, then return to the editor or something, but it doesn't seem to work. Meh. 
