@@ -37,3 +37,21 @@ git add notes.txt
 git commit
 ```
 
+# Viewing changes
+
+The 'git status' command shows you where you are at. The red colour indicates changes that aren't set to be part of the next version. The green colour indicates changes that are set to be part of the next version.
+
+## Difference
+
+View what isn't going to be part of the next version
+
+```
+get diff
+```
+
+View what is going to be part of the next version
+
+```
+get diff --staged
+```
+
